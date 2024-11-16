@@ -8,7 +8,7 @@ const sora = Sora({
 
 export default function MinimalCard() {
   return (
-    <div className={ `${sora.className} w-[336] rounded-xl  pb-5 bg-[#FAFAF9] shadow-lg  `}>
+    <div className={ `${sora.className}  max-w-[336] rounded-xl  pb-5 bg-[#FAFAF9] shadow-lg `}>
       <div className=" p-4 rounded-sm pb-0">
         <div className="flex w-full relative h-[152px] mb-4  ">
             <Image 
